@@ -27,10 +27,14 @@
 
         }
         static void Main(string[] args)
+
         {
-           
-         
-      
+            Program obj = new Program();
+            obj.add();
+            obj.sub();
+            obj.div();
+            obj.mul();
+          
 
         }
     }
