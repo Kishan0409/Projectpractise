@@ -2,39 +2,26 @@
 {
     internal class Program
     {
-        int a = 10, b = 20, c;
-        void add()
-        {
-            c = a + b;
-            Console.WriteLine(c);
-        }
-
-        void sub()
-        {
-            c = a - b;
-            Console.WriteLine(c);
-
-        }
-        void mul()
-        {
-            c = a * b;
-            Console.WriteLine(c);
-        }
-        void div()
-        {
-            c = a / b;
-            Console.WriteLine(c);
-
-        }
         static void Main(string[] args)
-
         {
-            Program obj = new Program();
-            obj.add();
-            obj.sub();
-            obj.div();
-            obj.mul();
-          
+            //Operation obj = new Operation();
+            //obj.Accept();
+            //obj.add();
+
+            //SI obj = new SI();
+            //obj.calsi();
+
+            //Datatype obj = new Datatype();  //  LOCAL VARAIBLE
+            // obj.show();
+
+            //Person P = new Person();
+            //P.setAge();                    // INSTANCE VARIABLE
+            //P.showAge();
+
+            //Test.count = 5;
+            //Console.WriteLine(Test.count);   // STATIC VARAIBLE   
+
+
 
         }
     }
