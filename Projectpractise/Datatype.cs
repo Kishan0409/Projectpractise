@@ -6,47 +6,21 @@ using System.Threading.Tasks;
 
 namespace Projectpractise
 {
-    //internal class Datatype
-    //{
+    internal class Datatype
+    {
 
-    //    public void show()
-    //    {
-    //        int x = 10;
-    //        Console.WriteLine("x");//Local Varaible
-    //    }
+        public void PDatatypeFun()
+        {
+            int a = 10;
+            byte bt = 2; // 1Byte
+            float b = 23.45F;
+            double c = 23345.2;
+            bool d = false;
+            char ch = 'a';
+            string s = "hello";
 
-    //}
-
-    //internal class Person
-    //{
-    //    int age; // Instance variable 
-    //    public void setAge()
-    //    {
-    //        age = 28;
-    //    }
-    // public void showAge()
-    //    {
-    //        Console.WriteLine("Age:" + age);
-    //    }
-
-    //}
-
-    //internal class Test
-    //{
-
-    //   public static int count = 0;
-
-    //    }
-
-
-
+            Console.WriteLine("a={0} , b={1}, c={2}, d={3}, ch={4}, s={5}", a, b, c, d, ch, s);
+        }
+    
+    }
 }
-
-
-
-
-
-
-
-
-
