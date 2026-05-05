@@ -34,9 +34,24 @@
             //obj.SumDDigit();
 
 
-            Operator obj = new Operator();
-            obj.main();
+            //Operator obj = new Operator();
+            //obj.main();
 
+
+            //OddEven obj = new OddEven();
+            //obj.OddEvenNmuber();
+
+            //LeapYear obj = new LeapYear();
+            //obj.pLeapYear();
+
+            //IfElse obj = new IfElse();
+            //obj.IiFElse();
+
+            //IfElse obj = new IfElse();
+            //obj.ElectricityBill();
+
+            ifElse obj = new ifElse();
+            obj.Ladder();
 
         }
     }

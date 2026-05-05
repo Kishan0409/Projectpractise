@@ -12,7 +12,7 @@ namespace Projectpractise
         public void PDatatypeFun()
         {
             int a = 10;
-            byte bt = 2; // 1Byte
+            byte bt = 2; // 1Byte 
             float b = 23.45F;
             double c = 23345.2;
             bool d = false;
